@@ -1,4 +1,4 @@
-# All .xls files have been deleted and converted into CSV files under the "root/Uncleaned CSVs" folder
+# All .xls files have been deleted and converted into CSV files under the "root/1_Un3_Cleaned CSVs" folder
 import pandas as pd
 import os
 import glob

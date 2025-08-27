@@ -83,7 +83,7 @@ def create_or_update_district_coordinates(csv_file_path, cache_file='district_co
     return generated_coordinates, districts_not_found
 
 if __name__ == "__main__":
-    csv_folder = './Cleaned CSVs/'
+    csv_folder = './3_Cleaned CSVs/'
 
     csv_files = glob.glob(f"{csv_folder}*.csv")
 

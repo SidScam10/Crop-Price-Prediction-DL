@@ -20,7 +20,7 @@ import pandas as pd
 from pycaret.regression import *
 
 # Load dataset
-df = pd.read_csv("../Weather_Merged_CSVs/Turmeric.csv")
+df = pd.read_csv("../5_Weather_Merged_CSVs/Turmeric.csv")
 
 # Inspect first few rows
 df.head()
