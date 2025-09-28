@@ -34,8 +34,8 @@ def analyze_district_performance(df):
     return summary_df
 
 # --- Main Execution ---
-district_wise_folder = r'c:\Users\siddh\OneDrive\Documents\Agricultural Datasets\7_Results\Ensemble-District-Wise'
-output_folder = r'c:\Users\siddh\OneDrive\Documents\Agricultural Datasets\7_Results\District-Wise-Crop-Graphs'
+district_wise_folder = r'.\7_Results\Ensemble-District-Wise'
+output_folder = r'.\7_Results\District-Wise-Crop-Graphs'
 
 csv_files = glob.glob(os.path.join(district_wise_folder, '*.csv'))
 
